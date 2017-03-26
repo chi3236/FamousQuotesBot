@@ -1,1 +1,1 @@
-Simple java Twitterbot project using Twitter4j
+Simple Twitterbot project using Twitter4j
