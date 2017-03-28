@@ -23,10 +23,10 @@ public class twitbot{
                     
                     try{
                         Status status = twitter.updateStatus(mention);
+                        System.out.println("Done with quote " + dataManager.getSelect());
                     } catch(TwitterException e){
                         e.printStackTrace();
                     }
-                    System.out.println("Done with quote " + dataManager.getSelect());
                     try{
                         Thread.sleep(timeInterval);
                     } catch(InterruptedException e){
